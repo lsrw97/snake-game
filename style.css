@@ -30,3 +30,23 @@ body {
 .apple {
   background-color: red;
 }
+
+.btn-line {
+  width: 30%;
+  display: flex;
+  height: 2.5em;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1em auto;
+}
+
+button {
+  border: none;
+  padding: 1em;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: antiquewhite;
+}
